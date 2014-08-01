@@ -11,4 +11,4 @@ Usuage
 
 License
 =======
-(MIT)[https://raw.githubusercontent.com/Zuckonit/devent/master/LICENSE]
+[MIT](https://raw.githubusercontent.com/Zuckonit/devent/master/LICENSE)
