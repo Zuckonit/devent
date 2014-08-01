@@ -35,7 +35,7 @@ class EventWatcher(object):
         while self.run_status:
             event_val = self.callback(*self.args, **self.kwargs)
             set_event(self.event_name, event_val)
-            print get_event(self.event_name)
+            #print get_event(self.event_name)  #here is for debug
             gevent.sleep(self.interval)
 
     def start(self):
